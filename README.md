@@ -1,3 +1,20 @@
+Website desenvolvido para desafio de processo seletivo.
+
+Nessa aplicação é possível ver as questões cadastradas no banco de dados através de uma lista, marcar se estão disponíveis ou não e editar enunciado e alternativas.
+
+Uma dificuldade que encontrei nesse projeto foi para mostrar de forma efetivas as questões numa lista, sem que ocupassem muito espaço e ao mesmo tempo fosse possível de distinguir uma questão da outra. Minha solução para este problema foi ter as questões mostradas em cards contendo algumas informações e um botão de visualizar, que ao clicado
+abre um modal mostrando o enunciado da questao. Escolhi fazer dessa maneira para que não gerasse um carregamento extra da página ao sair do modo de visualização da questao.
+É possível entrar no modo de edição a partir do modal, sem ter que voltar para a lista. Uma feature interessante de ser implementada no futuro seria setas dos dois lados do modal para avançar para a próxima questão e voltar para a questão anterior.
+
+Para edição do enunciado e das alternativas eu escolhi usar o "tinymce" que apresentou uma interface fácil de trabalhar e com muitas opções de customização. Existem várias outras ferramentas no mercado, inclusive gratuitas. Com ele consegui fazer edição como texto e recebendo o retorno convertido para html, pronto para ser enviado para o backend.
+
+Para interface usei o bootstrap para a navbar, botões e algumas outras estilizações. A navbar ficou pronta para receber outras telas e mais funcionalidades.
+
+Este site encontra-se hospedado em: https://fbstudio.netlify.app/
+
+Intruções para dowload e execução do projeto se encontram abaixo:
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
